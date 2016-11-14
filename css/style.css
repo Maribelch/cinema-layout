@@ -1,0 +1,208 @@
+*{
+    font-family: 'Open Sans';
+}
+
+header .col-4{
+    background-color: #f9f9f9;
+}
+
+header .col-5{
+    background-color: #f9f9f9; 
+    height: 64px;
+}
+
+header .col-5 p{
+    font-size: 10px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+header .col-2{
+    background-color: #f8f8f8; 
+    height: 64px;
+    width: 291px;
+}
+
+
+header .search_bar {
+	padding:7px 10px;
+	
+}
+
+header .search_bar input {
+	width:60%;
+	border:1px solid #ccc;
+    position: relative;
+    padding:0px 0px 0px 8px;
+	height:32px;
+    top:10px;
+    left: -25px;
+	background: rgba(255, 255, 255, .6); 
+}
+
+header .search_bar .fa-search {
+	position:relative;
+	top:10px;
+	right: 50px;
+	color:#1e1e1e; 
+}
+
+header .logo{
+    width: 100%;
+    height: 60px;
+    
+}
+
+.seccion1 .banner{
+    background-image: url(../img/banner.jpg);
+    background-position:right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    
+}
+
+.seccion1 .fondo{
+    background-color: #383838;
+    height: 320px;
+    color: #d3d3d3;
+    font-size: 10px;
+    
+}
+
+.seccion1 .verde{
+   
+    text-decoration: none;
+    color: #41ad41;
+    border: 1px solid #41ad41;
+    border-radius: 5px;
+     font-family: sans-serif;
+}
+
+.seccion1 .amarillo{
+    background-color: #dfb636;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    padding-right: 10px;
+    border: none;
+    font-family:sans-serif;
+}
+
+.seccion1 .naranja{
+    background-color: #C79355;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    padding-right: 30px;
+    border: none;
+     font-family: sans-serif;
+}
+
+.seccion1 .icono{
+    width: 44px;
+    top: 120px;
+    left: 175px;
+    position: relative;
+}
+
+.seccion2 .fondo2{
+    background-color: #dfb636;
+    height: 197px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.seccion2 img{
+    width: 160px;
+    height: 160px;
+    margin-top: 15px;
+   
+  
+}
+
+.seccion4 .container-fluid{
+    background-color: #fff;
+    height: 670px;
+    font-family: sans-serif;;
+}
+
+.seccion4 .boton{
+    background-color: #bb7b29;
+    width: 150px;
+    height: 50px;
+    border-radius: 9px;
+    position: none;
+    
+}
+
+.seccion4 .boton a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.seccion4 .letras p{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.seccion4 .letras a{
+    text-decoration: none;
+    color: #e9cd2f;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+.seccion4 img{
+    width: 250px;
+    height: 220px;
+}
+
+
+footer .container-fluid{
+    background-color: #f3f3f3 ;
+    height: 250px;
+    padding: 20px 50px 30px 50px;
+    
+}
+
+footer p:nth-child(1){
+    font-size: 14px;
+}
+footer p:nth-child(2){
+    font-size: 14px;
+}
+footer p:nth-child(3){
+    font-size: 14px;
+}
+
+footer p:nth-child(4){
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #cecece;
+    font-size: 12px;
+    font-weight: bold;
+     font-family: sans-serif;
+}
+
+.col-3 {
+   height: 200px;
+   width: 100px;
+   border: 1px solid #f00;
+   margin: 10px auto;
+   background: #ccc;
+   text-align: center;
+   transition: all 1s ease-in-out;
+}
+    .col-3:hover, #col-3 col-3.hover_effect {
+      transform: rotate(5deg) scale(1.5,1.5);
+   }
+
+
